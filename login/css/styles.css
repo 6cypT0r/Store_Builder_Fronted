@@ -1,0 +1,75 @@
+body{
+  display: block;
+  background-color: rgb(111, 101, 196);
+  font-size: 16px;
+}
+main{
+  border: none;
+  border-radius: 50px ;
+  display: block;
+  background-color: white;
+  min-width: 300px;
+  max-width: 600px;
+  margin:auto;
+  margin-top: 10%;
+}
+a{
+  text-decoration: underline;
+}
+p{
+  margin: 1em auto;
+  text-align: center;
+  padding-bottom: 2em;
+}
+input{
+  margin:10px 0 0 0;
+  width: 95%;
+  min-height: 20px;
+  min-width: 50px;
+  text-align: left;
+}
+form{
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+#first-name, #email, #new-password{
+  border: none;
+  border-bottom-style:solid;
+}
+#submit{
+  display: block;
+  border: none;
+  border-radius:  50px;;
+  background-color: rgb(218, 68, 113);
+  margin:1em auto;
+  min-height: 4em;
+  min-width: 50px;
+  width: 50%;
+  
+  text-align: center;
+}
+.main_form{
+  align-self: center;
+}
+label{
+  display: block;
+  margin: 0.5rem 0;
+}
+fieldset{
+  border: none;
+  display: block;
+  margin:1em auto;
+  height: 6em;
+  min-width: 50px;
+  width: 60%;
+}
+.logo{
+  display: block;
+  margin: 1em auto;
+  padding-top: 2em;
+  padding-left: 10em;
+  padding-right: 10em ;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Форма регисрации</title>
+        <link rel="stylesheet" href="css/styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <main>
+            <div class="logo">
+                <img сlass="logo_pic" src="img/logo.png">
+            </div>
+                <form method="post" action="">
+                    <fieldset>
+                        <input id="first-name" name="first-name" type="text" placeholder="Имя" required/>
+                        <input id="email" name="email" type="email" placeholder="Почта" required/>
+                        <input id="new-password" name="new-password"  type="new-password" pattern="[a-zA-Z0-9]{8,30}" placeholder="Пароль" required/>
+                    </fieldset> 
+                    <input id="submit" type="submit" value="Зарегистрироваться"/>
+                </form>
+                <p>Вы являетесь владельцем? <a href="">Войти тут</a></p>
+        </main>
+        
+    </body>
+</html> 

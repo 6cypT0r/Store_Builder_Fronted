@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Форма регисрации</title>
+        <link rel="stylesheet" href="css/styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <main>
+            <div class ="main_form">
+                
+                <div class="form">
+                <div class="logo">
+                    <a href="../Main_Page/index.html"><img сlass="logo_pic"src="img/logo.svg" alt="logo"></a>
+                </div>
+                   <form method="post" action="../User/index.html" target="_blank">
+                    <form>
+                        <fieldset>
+                            <input id="first-name" name="first-name" type="text" placeholder="Имя" required/>
+                            <input id="email" name="email" type="email" placeholder="Почта" required/>
+                            <input id="new-password" name="new-password"  type="new-password" pattern="[a-zA-Z0-9]{8,30}" placeholder="Пароль" required/>
+                            <input id="retype-password" name="retype-password"  type="retype-password" pattern="[a-zA-Z0-9]{8,30}" placeholder="Повторить пароль" required/>
+                        </fieldset>
+                    </form> 
+                </div>
+                <div class="login">
+                    <p><a href="../Login_Page/index.html">Войти</a></p>
+                </div>
+                <div class="different_login">
+                    <p>Вы являетесь владельцем? <a href="../Login_Administrator/index.html">Войти тут</a></p>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+body{
+  display: block;
+  background-color: #DDD6FF;
+  font-size: 24px;
+  font-weight: 400;
+}
+main{
+  display: block;
+  border: none;
+  margin: auto;
+}
+.main_form{
+  display: grid;
+  margin-top: 10%;
+  border-radius: 46px ;
+  background-color: #FFFFFF;
+  width: 500px;
+  height: 450px;
+  align-self: center;
+  margin : 10% auto;
+}
+
+a{
+  text-decoration: underline;
+}
+p{
+  margin: 1em auto;
+  text-align: center;
+  padding-bottom: 2em;
+}
+input{
+  margin:10px 0 0 0;
+  width: 95%;
+  min-height: 20px;
+  min-width: 50px;
+  text-align: left;
+}
+.logo{
+  display: block;
+  align-self: center;
+  margin: auto;
+}
+.different-login{
+  padding-top: 20px;
+  margin: 0 auto;
+}
+#first-name, #email, #new-password, #retype-password{
+  border: none;
+  border-bottom-style:solid;
+}
+#submit{
+  display: block;
+  border: none;
+  border-radius:  50px;;
+  background-color: #FF005E;
+  margin:2% auto;
+  min-height: 4em;
+  height: 80px;
+  width: 300px;
+  text-align: center;
+}
+fieldset{
+  border: none;
+  display: block;
+  margin:1em auto;
+  width: 300px;
+}
